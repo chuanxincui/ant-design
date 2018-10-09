@@ -32,7 +32,7 @@ ReactDOM.render(
     mode="multiple"
     style={{ width: '100%' }}
     placeholder="Please select"
-    defaultValue={['a10', 'c12']}
+    defaultValue={{children}}
     onChange={handleChange}
   >
     {children}
